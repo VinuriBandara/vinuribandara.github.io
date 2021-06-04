@@ -105,27 +105,23 @@
     font-size: 32px;
   }
   
-  .one {
-    width: 160px;
-    height: 160px;
+  .slider {
     position: relative;
+    /* margin-top: 3rem; */
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
   }
   
-  .two {
-    width: 160px;
-    height: 160px;
+  .slider__list {
     position: absolute;
-    transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out;
+    left: 0;
+    width: 100%;
   }
   
-  .fade {
-    transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out;
-  }
-  
-  span.highlight {
-    background-color: #ffffd0;
+  .slider__slide {
+    float: left;
   }
